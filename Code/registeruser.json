@@ -1,0 +1,101 @@
+{
+  "registeruser": [
+    {
+      "fname": "Deepika",
+      "lname": "Joge",
+      "email": [
+        "deepikajoge@gmail.com",
+        "deepikajoge@gmail.com"
+      ],
+      "password": "deep1234",
+      "conpassword": "deep1234",
+      "mnumb": "8552049777",
+      "addline1": "#1198",
+      "addline2": "hmel township",
+      "pincode": "151301",
+      "tname": "Raman",
+      "id": 1
+    },
+    {
+      "fname": "Nitin",
+      "lname": "Rane",
+      "email": [
+        "nitins.rane@gmail.com",
+        ""
+      ],
+      "password": "nit1234",
+      "conpassword": "nit1234",
+      "mnumb": "9168273999",
+      "addline1": "#1198",
+      "addline2": "hmel township",
+      "pincode": "151301",
+      "tname": "Raman",
+      "id": 2
+    },
+    {
+      "fname": "Vedanti",
+      "lname": "Rane",
+      "email": [
+        "veda23@gmail.com",
+        ""
+      ],
+      "password": "vedu123sept",
+      "conpassword": "vedu123sept",
+      "mnumb": "9999999988",
+      "addline1": "#1198",
+      "addline2": "hmel township",
+      "pincode": "151301",
+      "tname": "Raman",
+      "id": 3
+    },
+    {
+      "fname": "Sami",
+      "lname": "Rao",
+      "email": [
+        "samrao.1@gmail.com",
+        ""
+      ],
+      "password": "samrao456",
+      "conpassword": "samrao456",
+      "mnumb": "3333333333999",
+      "addline1": "#564",
+      "addline2": "Model Town",
+      "pincode": "12321",
+      "tname": "Karanja",
+      "id": 4
+    },
+    {
+      "fname": "Sami",
+      "lname": "Rao",
+      "email": [
+        "samrao.1@gmail.com",
+        ""
+      ],
+      "password": "samrao456",
+      "conpassword": "samrao456",
+      "mnumb": "3333333333999",
+      "addline1": "#564",
+      "addline2": "Model Town",
+      "pincode": "12321",
+      "tname": "Karanja",
+      "id": 5
+    },
+    {
+      "fname": "ankita",
+      "lname": "giri",
+      "email": [
+        "ankigiri12@gmail.com",
+        "ankigr1@gmail.com"
+      ],
+      "pswd": "ankigiri2021",
+      "cppassword": "ankigiri2021",
+      "mnum": "8522713245",
+      "addline1": "Flat no A-301",
+      "addline2": "sai nagar",
+      "pincode": "442001",
+      "tname": "Bhandara",
+      "reguser": "",
+      "id": 6
+    }
+  ]
+}
