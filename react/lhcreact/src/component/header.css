@@ -1,0 +1,158 @@
+#header{
+    background-color:teal;
+    width:100%;
+    display:inline-block;
+}
+#heading{
+    font-size:30px;
+    color:white;
+    text-align:center;
+    height:50px;
+}
+.searchbar{
+    height:35px;
+    width:40%;
+    background-color:white;
+    color:black;
+    font-size:15px;
+    margin-top:1%;
+    margin-bottom:1%;
+    border:4px solid teal;
+}
+.navbar-nav{
+    font-size:20px;
+    
+}
+.socialIcon{
+    height:40px;
+    width:40px;
+}
+.socialI{
+    float:right;
+}
+.modal-content
+{   
+    background-color: whitesmoke;
+}
+#about
+{
+    font-family:URW Chancery L, cursive ;
+}
+.glyphicon-home{
+    color:white;
+    tab-size: 10px;
+    padding-top:15px;
+    font-size:17px;
+    margin-left:10px;
+    cursor:pointer;
+}
+.glyphicon-book{
+    color:aliceblue;
+    tab-size: 10px;
+    padding-top:15px;
+    font-size:17px;
+    cursor:pointer;
+}
+.glyphicon-gift{
+    color:white;
+    tab-size: 10px;
+    padding-top:15px;
+    font-size:17px;
+    cursor:pointer;
+}
+#contact
+{
+    color:white;
+    background-color:rgb(8, 7, 8);
+    box-shadow: -7px -7px 7px slategray;
+}
+.glyphicon-earphone{
+    color:aliceblue;
+    tab-size: 10px;
+    padding-top:15px;
+    font-size:17px;
+    margin-left:10px;
+    cursor:pointer;
+}
+.info
+{
+    margin-left:5%;
+    width:100%;
+    height:100%;
+    
+}
+.contactno{
+    width:48%;
+    height:100%;
+    font-size:15px;
+    display: inline-block;
+}   
+.addr
+{
+    height:75px;
+    width:40%;
+    font-size:15px;
+    display: inline-block;
+    margin-left:5%;
+}
+.modal-body
+{
+    margin-top:1%;
+    display:inline-block;
+    width:100%;
+}
+#loginhere{
+    height:320px;
+    width:40%;
+    border:1px solid black;
+    display:inline-block;
+    margin-left:2%;
+    background-color:rgb(209, 218, 129);
+    font-family: Body,Quicksand,sans-seri;
+}
+.loghead{
+    font-size:20px;
+    font-weight:bold;
+    border-bottom:2px solid;
+    font-family: Body,Quicksand,sans-seri;
+}
+.logindetails>input{
+    width:80%;
+    margin-left:3%;
+    margin-top:3%;
+}
+.modal-dialog{
+    background-color: lightseagreen;
+}
+#mySlider{
+    height:320px;
+    width:55%;
+    float:left;
+    margin-left:2%;
+    background-color: brown;
+}
+.craftimage{
+    width:100%;
+    height:100%;
+}
+.close
+{
+    margin-right:2%;
+}
+.glyphicon-log-in{
+    color:aliceblue;
+    tab-size: 10px;
+    padding-top:15px;
+    font-size:17px;
+    cursor:pointer;
+}
+.glyphicon-user
+{
+    color:aliceblue;
+    tab-size: 10px;
+    font-size:17px;
+    cursor:pointer;
+}
+.userlog{
+    float:left;
+}

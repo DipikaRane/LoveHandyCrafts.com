@@ -1,0 +1,44 @@
+body{
+    background-color:white;
+}
+#maincontent{
+    width:100%;
+    margin-left:5%;
+    margin-top:2%;
+}
+#searchresult{
+    width:70%;
+    height:50%;
+    margin-left:3%;
+    border:2px solid black;
+}
+.card{
+    height:355px;
+    width:25%;
+    margin-left:5%;
+    
+    /*border:2px solid black;*/
+    box-shadow: 7px 7px 10px rgb(27, 26, 26);
+    margin-top:2%;
+    float:left;
+}
+.card:hover{
+    transform:scale(1.1);
+    cursor:pointer;
+}
+.cardImage{
+    height: 190px;
+    width: 70%;
+    margin-left:10%;
+    margin-top:2%;
+}
+.cardtooltip{
+    height:15px;
+    font-size:10px;
+    background-color:black;
+}
+.btn-proceed{
+    background-color:rgb(43, 122, 116);
+    margin-bottom:2%;
+    color:rgb(10, 9, 9);
+}

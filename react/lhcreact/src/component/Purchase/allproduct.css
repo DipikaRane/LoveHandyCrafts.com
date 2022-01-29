@@ -1,0 +1,34 @@
+#QuickSearch{
+    height:100%;
+    width:100%;
+    /*border:1px solid black;*/
+}
+#mainheading{
+    margin-left:1%;
+    margin-top:1%;
+    font-size:30px;
+    color:red;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.mainoptionblock{
+    height:100%;
+    width:100%;
+    margin-top:4px;
+}
+
+.heading{
+    margin-top:1%;
+    font-size:22px;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.select{
+    width:200px;
+    height:30px;
+    border:1px solid black;
+}
+.searchall{
+    height:800px;
+}

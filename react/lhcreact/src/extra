@@ -1,0 +1,42 @@
+<div className="card" data-bs-toggle="tooltip" title={item.category}>
+                            <img src={item.Image} alt={item.product_name} className="cardImage"/>
+                            <center>
+                            <h4>{item.product_name}</h4> From {item.origin}
+                            <p>Size:{item.dimenssion} , {item.color}</p>
+                            <p>{item.piece} For Rs.<span>{item.price}</span></p>
+                            <Link class="btn btn-proceed" to={`/purchase/${item.id}`}>Proceed</Link>
+                            </center>
+                        </div>
+
+>>>searchall 
+
+constructor(props){
+        super(props);
+        this.state={
+            category:''
+        }
+    }
+    render(){
+        return(
+               <div id="QuickSearch">
+                <span id="mainheading">
+                Select the best beautiful souveniers of your choice
+                </span>    
+                <AllProducts quickData={this.state.category}/>         
+            </div>      
+        )
+    }      
+    //call api for category
+    componentDidMount() {
+        fetch(url,{method:'GET'})
+        .then((res)=>res.json())
+        .then((data)=>{
+            this.setState({category:data})
+        })
+    }
+
+    allproducts>>>>>>>>
+    renderCat=({quickData})=>{
+        if(quickData){
+            return quickData.map((item)=>{
+                return(
