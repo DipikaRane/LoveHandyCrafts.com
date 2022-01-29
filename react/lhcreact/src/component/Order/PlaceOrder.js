@@ -1,5 +1,6 @@
 import React,{Component} from 'react';
 import './order.css';
+import Header from '../Header'
 
 const prodUrl="https://lovehandicrafts.herokuapp.com/selected";
 const plcOrdUrl="https://lovehandicrafts.herokuapp.com/placeOrder";
@@ -10,10 +11,10 @@ class PlaceOrder extends Component{
         this.state={
             id:Math.floor(Math.random()*100000),
             product_name:this.props.match.params.proName,
-            name:'Deepika',
-            email:'deepika@gmail.com',
-            phone:'8552049777',
-            address:'#1198',
+            name:'',
+            email:'',
+            phone:'',
+            address:'',
             price:0,
             items:'',
         }

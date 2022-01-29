@@ -28,7 +28,7 @@ class ViewApi extends Component{
                 var data = {
                     "date":qparams.split('&')[2].split('=')[1],
                     "bank_status":qparams.split('&')[0].split('=')[1],
-                    "Bank":qparams.split('&')[3].split('=')[1],
+                    "Bank":qparams.split('&')[3].split('=')[1].split('%')[0],
                 }
 
                 var id = qparams.split('&')[1].split('=')[1].split('_')[1]

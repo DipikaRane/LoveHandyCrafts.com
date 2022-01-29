@@ -33,7 +33,7 @@ class Header extends Component{
         .then((data)=>{
             if(data.auth === false){
                 this.setState({message:data.token});
-                document.getElementById('Login').style.display='none'
+                document.getElementById('signin').style.display='none'
             }else{
                 localStorage.setItem('ltk',data.token)
                 //this.props.history.push('/')
@@ -144,7 +144,7 @@ class Header extends Component{
                                     </div>
                                     <li><Link to='/searchall' className="glyphicon glyphicon-gift">ShopMore</Link></li>
                                 </ul>
-                                <ul className="nav navbar-nav navbar-right">
+                                <ul className="nav navbar-nav navbar-right" id="signin">
                                 <li><span className="glyphicon glyphicon-log-in" data-toggle="modal" data-target="#Login">Sign-In</span></li>
                                     <div id="Login" className="modal fade" role="dialog">
                                         <div className="modal-dialog">
@@ -155,10 +155,14 @@ class Header extends Component{
                                                 <div id="loginhere">
                                                     <center><span className="loghead" text-align="center">Login</span>
                                                     <div className="logindetails">
-                                                        <input placeholder="User Name" className="form-control" name="email" value={this.state.email} onChange={this.handleChange}/><p>Forget User Name?</p>
-                                                        <input placeholder="Password" className="form-control" type="password" name="password" value={this.state.password} onChange={this.handleChange}/><p>Forget Password?</p>
+                                                    <br/>
+                                                        <p>Email Id!</p>
+                                                        <input placeholder="User Name" className="form-control" name="email" value={this.state.email} onChange={this.handleChange}/>
+                                                        <p>Password</p>
+                                                        <input placeholder="Password" className="form-control" type="password" name="password" value={this.state.password} onChange={this.handleChange}/>
+                                                        <br/>
                                                     </div>
-                                                    <button type="button" className="btn btn-warning btnmiddle" onClick={this.handleSubmit}>Submit</button>   
+                                                    <button type="button" className="btn btn-warning btn-block" onClick={this.handleSubmit}>Submit</button>   
                                                     
                                                     </center>
                                                 </div>

@@ -2,6 +2,7 @@ import React,{Component} from 'react';
 import SearchDisplay from './SearchDisplay';
 import './Search.css';
 
+
 const url="https://lovehandicrafts.herokuapp.com/categories";
 
 class Search extends Component{
