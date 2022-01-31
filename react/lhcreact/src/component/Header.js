@@ -32,11 +32,12 @@ class Header extends Component{
         .then((res)=>res.json())
         .then((data)=>{
             if(data.auth === false){
-                this.setState({message:data.token});
-                document.getElementById('signin').style.display='none'
+                document.getElementById('iep').innerHTML="Invalid Credentials";
+                //
             }else{
                 localStorage.setItem('ltk',data.token)
-                //this.props.history.push('/')
+                document.getElementById('signin').style.display='none'
+                this.props.history.push('/')
             }
         })
     }
@@ -44,7 +45,7 @@ class Header extends Component{
         this.setState({userdata:''})
         localStorage.removeItem('userdata')
         localStorage.removeItem('ltk')
-        //this.props.history.push('/')
+        this.props.history.push('/')
     }
     conditionalHeader=()=>{
         if(this.state.userdata.name){
@@ -155,7 +156,7 @@ class Header extends Component{
                                                 <div id="loginhere">
                                                     <center><span className="loghead" text-align="center">Login</span>
                                                     <div className="logindetails">
-                                                    <br/>
+                                                    <p id="iep"></p>
                                                         <p>Email Id!</p>
                                                         <input placeholder="User Name" className="form-control" name="email" value={this.state.email} onChange={this.handleChange}/>
                                                         <p>Password</p>
